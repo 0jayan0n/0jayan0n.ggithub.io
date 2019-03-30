@@ -1,0 +1,213 @@
+
+*{
+    margin: 0;
+    padding: 0px;
+}
+body{
+    background-color: whitesmoke;
+  
+}
+
+header{
+    background-color: rgba(0,0,0,0.5);
+    height: 100px;
+    position: fixed;
+    width:100%;
+}
+
+.logo{
+    float: left;
+    width: 100px;
+  
+}
+
+#banner{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)), url('asset/images/inspiration.jpg');
+    background-size:cover;
+    height: 100vh;
+    background-position: top bottom;
+
+}
+.bantext{
+    font-size: 20px;
+    font-family: Tahoma;
+    color: whitesmoke;
+    padding-top: 550px;
+    float:left;
+}
+.brand-name{
+    color:white;
+    font-weight: 100;
+    font-size: 25px;
+    font-family: Tahoma;
+    border: 10px;
+    position: relative;
+    top:30px;
+    left: 45px;
+    width:30%;
+    
+}
+
+nav{
+    float:right;
+    padding-right: 40px;
+
+}
+nav ul{
+    float:right;
+    margin-right: 40px;
+
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right:20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-family: sans-serif;
+    cursor: pointer;
+    padding:5px;
+
+}
+
+nav ul li a:hover{
+   
+  color:blueviolet;
+  border:1px solid white;
+  padding:5px;
+}
+.paragraph-div p{
+    width:45%;
+    margin:20px auto;
+    text-align: justify;
+    font-size: 20px;
+    font-family:sans-serif;
+    margin-right:40px;
+    float: right;
+}
+#content{
+    background-color: whitesmoke;
+    height: 500px;
+}
+.boutus{
+    text-align: center;
+    font-size: 50px;
+    padding-top:50px;
+    color: indigo;
+}
+.about_us{
+    width: 45%;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+#gall{
+    background-color: whitesmoke;
+    padding-top: 70px; 
+    margin-top: 150px;
+}
+.gallery{
+    text-align: center;
+    font-size:50px;
+    font-family: sans-serif;
+    color:indigo;
+    padding-bottom: 50px;
+}
+.gallimg{
+    margin-left: 80px;
+    margin-top: 80px;
+    padding-top: 50px;
+}
+#speakers{
+    border: 10px purple;
+	margin-bottom: 90px;
+    background-color: blueviolet;
+    text-align: center;
+    margin-top:30px;
+    
+}
+.speak{
+    color:black;
+    font-family: Tahoma;
+}
+#whyattend{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+    font-family: sans-serif;
+    color: indigo;
+}
+.attend{
+    padding-top: 10px;
+    font-family: sans-serif;
+}
+.wyatend{
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.Ruby{
+    width: 20%;
+    color: white;
+    font-family: sans-serif;
+    float: left;
+    background-color: blueviolet;
+    height: 350px;
+}
+.Ruby img{
+    border-radius: 50%;
+    margin-top: 60px;
+}
+
+#form{
+    height: 330px;
+    font-family: sans-serif;
+    background-color: darkorchid;
+    margin-top: 50px;
+
+}
+.name{
+    padding-right: 10px;
+    padding-left: 50px;
+    
+}
+.email{
+    padding-right: 10px;
+    padding-left: 50px;
+}
+.phone{
+    padding-right: 10px;
+    padding-left: 50px;
+}
+.gender{
+    padding-right: 10px;
+    padding-left: 50px;
+}
+.rembme{
+    padding-right: 10px;
+    padding-left: 50px;
+}
+.register{
+    padding-right: 10px;
+    padding-left: 50px;
+}
+div.name,
+div.email,
+div.phone,
+div.gender,
+div.rembme,
+div.register{
+    padding-top: 20px;
+}
+#foot{
+    width: 100%;
+    height:200px;
+    background-color:rgba(0, 0, 0, 0.863);
+    padding-top: 30px;
+}
+.contact{
+    text-align: left;
+    color:white;
+    font-family: sans-serif;
+}
